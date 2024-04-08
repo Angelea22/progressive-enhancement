@@ -1,0 +1,144 @@
+body {
+    background: linear-gradient(44deg, #ffadba, #389fff);
+    max-width: 90%;
+    margin: 100px;
+    background-image: url(pexels.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: inherit;
+    bottom: 0px;
+    right: 0px;
+    color: rgb(183, 183, 183);
+}
+
+header {
+    color: rgb(232, 232, 232);
+}
+
+header>p {
+    background: rgba(255, 255, 0, 0.68);
+}
+
+q.alex {
+    border-style: solid;
+    border-color: firebrick;
+    border: 3px;
+    margin: 60px;
+    font-size: 160%;
+    background-color: rgba(217, 217, 214, 0.288);
+}
+
+q {
+    font-style: italic;
+    quotes: "\201C";
+}
+
+q::before {
+    color: blue;
+}
+
+blockquote q.farmer {
+    color: rgb(255, 254, 196);
+}
+
+p.first {
+    font-weight: bold;
+}
+
+p.second {
+    font-family: serif;
+    font-size: 15px;
+    text-indent: 5px;
+    color: #393939;
+    flex-wrap: flex;
+    display: flex;
+    margin: 40px;
+    padding-top: 20px;
+
+}
+
+p.table {
+    margin: 40px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: grey;
+}
+
+p.conclusion {
+    position: relative;
+    padding-top: 40px;
+
+}
+
+img.first {
+    width: 500px;
+    margin: 30px;
+    display: flex;
+    float: left;
+    justify-content: left;
+}
+
+img.second {
+    width: 450px;
+    float: right;
+    margin: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+img.third {
+    width: 500px;
+    float: left;
+    margin: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+strong {
+    text-transform: uppercase;
+}
+
+li.first {
+    background-image: url(jjk.jpg);
+    padding-right: 10px;
+}
+
+li.second {
+    background-image: url(jjk.jpg);
+    padding-right: 10px;
+}
+
+li.third {
+    background-image: url(jjk.jpg);
+    padding-right: 10px;
+}
+
+.good {
+    color: rgba(29, 81, 29, 0.781);
+}
+
+.bad {
+    color: rgb(137, 13, 13);
+}
+
+a {
+    color: palevioletred;
+}
+
+a.link:hover+.hide {
+    display: block;
+    color: pink;
+}
+
+a.link:visited+.hide {
+    color: turquoise;
+}
+
+a.hide {
+    display: none;
+}
